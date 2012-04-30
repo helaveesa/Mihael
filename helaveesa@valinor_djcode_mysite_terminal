@@ -1,0 +1,510 @@
+helaveesa@valinor:~/djcode/mysite
+
+
+
+
+
+
+
+
+root       735  0.0  0.0  15056   388 ?        S    Apr29   0:00 upstart-socket-bridge --daemon
+root       788  0.0  0.0      0     0 ?        S<   Apr29   0:00 [ttm_swap]
+root       823  0.0  0.0   4188   628 tty4     Ss+  Apr29   0:00 /sbin/getty -8 38400 tty4
+root       829  0.0  0.0   4188   624 tty5     Ss+  Apr29   0:00 /sbin/getty -8 38400 tty5
+root       838  0.0  0.0   4188   624 tty2     Ss+  Apr29   0:00 /sbin/getty -8 38400 tty2
+root       840  0.0  0.0   4188   624 tty3     Ss+  Apr29   0:00 /sbin/getty -8 38400 tty3
+root       843  0.0  0.0   4188   624 tty6     Ss+  Apr29   0:00 /sbin/getty -8 38400 tty6
+root       853  0.0  0.0   4336   808 ?        Ss   Apr29   0:00 acpid -c /etc/acpi/events -s /var/run/acpid.socket
+root       856  0.0  0.1  23040  1608 ?        Ss   Apr29   0:00 /usr/sbin/bluetoothd
+root       861  0.0  0.0  18984  1008 ?        Ss   Apr29   0:00 cron
+daemon     862  0.0  0.0  16784   384 ?        Ss   Apr29   0:00 atd
+root       875  0.0  0.0      0     0 ?        S<   Apr29   0:00 [l2cap]
+root       881  0.0  0.0      0     0 ?        S<   Apr29   0:00 [krfcommd]
+root       925  0.0  0.3 124316  4188 ?        Ssl  Apr29   0:00 lightdm
+root       990  9.6  1.5 135432 19224 tty7     Rs+  Apr29   5:07 /usr/bin/X :0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch -b
+root      1022  0.0  0.0      0     0 ?        S    Apr29   0:00 [flush-8:0]
+root      1039  0.0  0.3  71832  4256 ?        Ss   Apr29   0:00 /usr/sbin/cupsd -F
+root      1046  0.0  0.2  64220  3676 ?        Sl   Apr29   0:00 /usr/lib/accountsservice/accounts-daemon
+colord    1049  0.0  0.8 296212 11336 ?        Sl   Apr29   0:00 /usr/lib/x86_64-linux-gnu/colord/colord
+root      1057  0.0  0.2  61900  3772 ?        Sl   Apr29   0:00 /usr/sbin/console-kit-daemon --no-daemon
+root      1173  0.0  0.0   4188   620 tty1     Ss+  Apr29   0:00 /sbin/getty -8 38400 tty1
+root      1199  0.0  0.3  88032  4224 ?        Sl   Apr29   0:00 /usr/lib/upower/upowerd
+rtkit     1303  0.0  0.1  37672  1292 ?        SNl  Apr29   0:00 /usr/lib/rtkit/rtkit-daemon
+1000      1335  0.0  1.0 117792 13004 ?        Sl   Apr29   0:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+1000      1344  0.0  0.8 208496 10636 ?        Ssl  Apr29   0:00 /usr/bin/gnome-session --session=ubuntu
+1000      1378  0.0  0.0  12272   276 ?        Ss   Apr29   0:00 /usr/bin/ssh-agent /usr/bin/dbus-launch --exit-with-session /usr/bin/gnome-se
+1000      1381  0.0  0.0  26444   512 ?        S    Apr29   0:00 /usr/bin/dbus-launch --exit-with-session /usr/bin/gnome-session --session=ubu
+1000      1382  0.2  0.2  27800  3444 ?        Ss   Apr29   0:08 //bin/dbus-daemon --fork --print-pid 5 --print-address 7 --session
+1000      1384  0.0  0.2  68064  2688 ?        S    Apr29   0:00 /usr/lib/gvfs/gvfsd
+1000      1389  0.0  0.2  83096  2596 ?        Ssl  Apr29   0:00 /usr/lib/gvfs//gvfs-fuse-daemon /home/helaveesa/.gvfs
+1000      1398  0.0  0.3  65464  4264 ?        S    Apr29   0:00 /usr/lib/libgconf2-4/gconfd-2
+1000      1402  0.0  1.6 434092 20968 ?        Sl   Apr29   0:01 /usr/lib/gnome-settings-daemon/gnome-settings-daemon
+1000      1414  0.0  0.3 176848  4608 ?        Sl   Apr29   0:00 /usr/lib/gnome-settings-daemon/gsd-printer
+1000      1415  0.3  1.2 310496 15620 ?        Rl   Apr29   0:09 metacity
+1000      1418  0.0  0.7 187732  9204 ?        Sl   Apr29   0:00 /usr/bin/gnome-screensaver --no-daemon
+1000      1424  0.0  0.0  20072   900 ?        S    Apr29   0:00 syndaemon -i 0.5 -K -R
+1000      1428  1.0  0.5 306392  7408 ?        S<l  Apr29   0:32 /usr/bin/pulseaudio --start --log-target=syslog
+1000      1431  0.0  0.2  94824  2984 ?        S    Apr29   0:00 /usr/lib/pulseaudio/pulse/gconf-helper
+1000      1433  0.0  0.2  67508  2736 ?        Sl   Apr29   0:00 /usr/lib/d-conf/dconf-service
+1000      1437  0.1  4.1 628700 53340 ?        Sl   Apr29   0:04 unity-2d-launcher
+1000      1438  0.6  2.3 444340 29476 ?        Sl   Apr29   0:21 unity-2d-panel
+1000      1443  0.0  0.5 165988  7404 ?        Sl   Apr29   0:00 /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
+1000      1445  0.0  0.6 189232  8812 ?        Sl   Apr29   0:00 /usr/lib/gnome-settings-daemon/gnome-fallback-mount-helper
+1000      1447  0.0  1.1 287032 14220 ?        Sl   Apr29   0:00 nm-applet
+1000      1448  0.1  2.6 513240 33920 ?        Sl   Apr29   0:05 nautilus -n
+1000      1449  0.0  0.8 215636 11480 ?        Sl   Apr29   0:00 bluetooth-applet
+1000      1451  0.0  0.9 206356 11744 ?        Sl   Apr29   0:00 /usr/lib/bamf/bamfdaemon
+1000      1460  0.0  0.3  79480  3932 ?        S    Apr29   0:00 /usr/lib/gvfs/gvfs-gdu-volume-monitor
+root      1462  0.0  0.2  64172  3744 ?        Sl   Apr29   0:00 /usr/lib/udisks/udisks-daemon
+root      1463  0.0  0.0  47412   824 ?        S    Apr29   0:00 udisks-daemon: polling /dev/sr0
+1000      1466  0.0  0.2  80460  2596 ?        Sl   Apr29   0:00 /usr/lib/gvfs/gvfs-afc-volume-monitor
+1000      1470  0.0  0.1  66460  2428 ?        S    Apr29   0:00 /usr/lib/gvfs/gvfs-gphoto2-volume-monitor
+1000      1476  0.1  1.9 336852 24732 ?        Sl   Apr29   0:03 /usr/lib/unity/unity-panel-service
+1000      1483  0.0  1.1 230004 15344 ?        Sl   Apr29   0:01 /usr/lib/notify-osd/notify-osd
+1000      1503  0.0  0.3 160576  4796 ?        Sl   Apr29   0:00 /usr/lib/indicator-application/indicator-application-service
+1000      1504  0.0  0.5 198468  6560 ?        Sl   Apr29   0:00 /usr/lib/indicator-messages/indicator-messages-service
+1000      1510  0.0  0.4 200280  5948 ?        Sl   Apr29   0:00 /usr/lib/indicator-session/indicator-session-service
+1000      1517  0.0  0.6 238828  8880 ?        Sl   Apr29   0:00 /usr/lib/indicator-datetime/indicator-datetime-service
+1000      1522  0.0  0.5 276100  7304 ?        Sl   Apr29   0:00 /usr/lib/indicator-sound/indicator-sound-service
+1000      1541  0.0  0.1  49272  2552 ?        S    Apr29   0:00 /usr/lib/geoclue/geoclue-master
+1000      1543  0.0  0.2  77116  3512 ?        S    Apr29   0:00 /usr/lib/gvfs/gvfsd-trash --spawner :1.1 /org/gtk/gvfs/exec_spaw/0
+1000      1549  0.0  0.2  68368  2860 ?        S    Apr29   0:00 /usr/lib/gvfs/gvfsd-burn --spawner :1.1 /org/gtk/gvfs/exec_spaw/1
+1000      1565  0.0  1.0 258488 13460 ?        Sl   Apr29   0:00 /usr/lib/gnome-online-accounts/goa-daemon
+1000      1566  0.0  0.2  77252  3832 ?        Sl   Apr29   0:00 telepathy-indicator
+1000      1569  0.0  0.2  60404  3428 ?        S    Apr29   0:00 /usr/lib/telepathy/mission-control-5
+1000      1587  0.0  0.2  53160  2648 ?        S    Apr29   0:00 /usr/lib/gvfs/gvfsd-metadata
+1000      1595  0.0  0.7 192884  9028 ?        S    Apr29   0:00 /usr/lib/gnome-disk-utility/gdu-notification-daemon
+1000      1596  0.0  0.6 173232  8748 ?        S    Apr29   0:00 /usr/lib/gnome-user-share/gnome-user-share
+1000      1599  0.0  0.4 161248  5840 ?        Sl   Apr29   0:00 zeitgeist-datahub
+1000      1605  0.0  1.6 148756 21308 ?        Sl   Apr29   0:00 /usr/bin/python /usr/bin/zeitgeist-daemon
+1000      1606  0.0  0.0  15964   584 ?        S    Apr29   0:00 /bin/cat
+1000      1615  0.0  1.8 258796 24040 ?        S    Apr29   0:00 /usr/bin/python /usr/share/system-config-printer/applet.py
+1000      1617  0.0  1.0 261224 12884 ?        Sl   Apr29   0:00 /usr/lib/evolution/3.2/evolution-alarm-notify
+1000      1622  0.0  1.0 318984 13992 ?        SLl  Apr29   0:01 /usr/lib/evolution/e-calendar-factory
+1000      1629  0.0  0.8 282452 10624 ?        Sl   Apr29   0:00 /usr/lib/evolution/e-addressbook-factory
+1000      1664  0.2  3.7 303652 47368 ?        Sl   Apr29   0:07 /usr/bin/python /usr/lib/ubuntuone-client/ubuntuone-syncdaemon
+1000      1710  0.1  1.5 262536 19328 ?        Rl   Apr29   0:03 gnome-terminal
+1000      1718  0.0  0.0  14664   804 ?        S    Apr29   0:00 gnome-pty-helper
+1000      1719  0.0  0.3  34840  5080 pts/0    Ss   Apr29   0:00 bash
+1000      1777  0.0  1.0 227460 13224 ?        Sl   Apr29   0:00 update-notifier
+root      1808  0.0  0.1   7136  1504 ?        S    Apr29   0:00 /sbin/dhclient -d -4 -sf /usr/lib/NetworkManager/nm-dhcp-client.action -pf /v
+1000      1858  0.0  0.3  94428  3884 ?        Sl   Apr29   0:00 /usr/lib/deja-dup/deja-dup/deja-dup-monitor
+1000      1881  9.1 11.7 905452 150556 ?       Sl   Apr29   4:18 /usr/lib/firefox-11.0/firefox
+1000      1895  0.0  0.2  90116  3632 ?        Sl   Apr29   0:00 /usr/lib/at-spi2-core/at-spi-bus-launcher
+1000      1945  0.1  1.4 251644 18492 ?        Sl   Apr29   0:03 /usr/lib/firefox-11.0/plugin-container /usr/lib/gnash/libgnashplugin.so -greo
+1000      2166  0.0  0.1  23288  1492 ?        S    Apr29   0:00 bash /usr/bin/banshee --redirect-log --play-enqueued /home/helaveesa/Музыка/M
+1000      2172  6.7  9.0 1874116 116032 ?      SLl  Apr29   1:35 banshee /usr/lib/banshee/Banshee.exe --redirect-log --play-enqueued /home/hel
+1000      2307  0.0  2.1 223880 27144 ?        S    Apr29   0:00 /usr/bin/python /usr/lib/ubuntu-sso-client/ubuntu-sso-login
+root      2483  0.1  0.0      0     0 ?        S    Apr29   0:00 [kworker/0:2]
+1000      2491  0.0  0.3 108868  4216 ?        Sl   Apr29   0:00 /usr/lib/gvfs/gvfsd-http --spawner :1.1 /org/gtk/gvfs/exec_spaw/2
+root      2515  0.0  0.0      0     0 ?        S    Apr29   0:00 [kworker/0:1]
+root      2522  0.0  0.0      0     0 ?        R    00:02   0:00 [kworker/0:0]
+1000      2532 10.4  1.3 341400 17544 ?        Sl   00:04   0:01 /usr/bin/gtk-gnash -u http://masterh4.adriver.ru/images/0001731/0001731912/0/
+1000      2535  2.9  1.3 340448 16844 ?        Sl   00:04   0:00 /usr/bin/gtk-gnash -u http://masterh5.adriver.ru/images/0001607/0001607189/0/
+1000      2544  0.0  0.0  26944  1204 pts/0    R+   00:05   0:00 ps aux
+helaveesa@valinor:~$ ps aux | grep apache
+helaveesa@valinor:~$ python
+Python 2.7.2+ (default, Oct  4 2011, 20:06:09) 
+[GCC 4.6.1] on linux2
+Type "help", "copyright", "credits" or "license" for more information.
+>>> a
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'a' is not defined
+>>> q
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'q' is not defined
+>>> 
+>>> q
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'q' is not defined
+>>> 
+KeyboardInterrupt
+>>> 
+helaveesa@valinor:~$ python
+Python 2.7.2+ (default, Oct  4 2011, 20:06:09) 
+[GCC 4.6.1] on linux2
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import django
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ImportError: No module named django
+>>> 
+helaveesa@valinor:~$ apt-get install django
+E: Не удалось открыть файл блокировки /var/lib/dpkg/lock - open (13: Отказано в доступе)
+E: Не удалось выполнить блокировку управляющего каталога (/var/lib/dpkg/); у вас есть права суперпользователя?
+helaveesa@valinor:~$ sudo !!
+sudo apt-get install django
+[sudo] password for helaveesa: 
+Чтение списков пакетов... Готово
+Построение дерева зависимостей       
+Чтение информации о состоянии... Готово
+E: Не удалось найти пакет django
+helaveesa@valinor:~$ apt-get search django
+E: Неверная операция search
+helaveesa@valinor:~$ cd 
+irhelaveesa@valinor:~$ mkdir djcode
+helaveesa@valinor:~$ cd djcode/
+helaveesa@valinor:~/djcode$ ls
+helaveesa@valinor:~/djcode$ django-admin.py startproject mysite
+django-admin.py: команда не найдена
+helaveesa@valinor:~/djcode$ django-admin startproject mysite
+helaveesa@valinor:~/djcode$ ll
+итого 12
+drwxrwxr-x  3 helaveesa helaveesa 4096 2012-04-30 02:11 ./
+drwxr-xr-x 61 helaveesa helaveesa 4096 2012-04-30 02:10 ../
+drwxrwxr-x  2 helaveesa helaveesa 4096 2012-04-30 02:11 mysite/
+helaveesa@valinor:~/djcode$ cd mysite/
+helaveesa@valinor:~/djcode/mysite$ ll
+итого 24
+drwxrwxr-x 2 helaveesa helaveesa 4096 2012-04-30 02:11 ./
+drwxrwxr-x 3 helaveesa helaveesa 4096 2012-04-30 02:11 ../
+-rw-r--r-- 1 helaveesa helaveesa    0 2012-04-30 02:11 __init__.py
+-rw-r--r-- 1 helaveesa helaveesa  503 2012-04-30 02:11 manage.py
+-rw-r--r-- 1 helaveesa helaveesa 5031 2012-04-30 02:11 settings.py
+-rw-r--r-- 1 helaveesa helaveesa  565 2012-04-30 02:11 urls.py
+helaveesa@valinor:~/djcode/mysite$ python manage.py
+Usage: manage.py subcommand [options] [args]
+
+Options:
+  -v VERBOSITY, --verbosity=VERBOSITY
+                        Verbosity level; 0=minimal output, 1=normal output,
+                        2=all output
+  --settings=SETTINGS   The Python path to a settings module, e.g.
+                        "myproject.settings.main". If this isn't provided, the
+                        DJANGO_SETTINGS_MODULE environment variable will be
+                        used.
+  --pythonpath=PYTHONPATH
+                        A directory to add to the Python path, e.g.
+                        "/home/djangoprojects/myproject".
+  --traceback           Print traceback on exception
+  --version             show program's version number and exit
+  -h, --help            show this help message and exit
+
+Type 'manage.py help <subcommand>' for help on a specific subcommand.
+
+Available subcommands:
+  changepassword
+  cleanup
+  collectstatic
+  compilemessages
+  createcachetable
+  createsuperuser
+  dbshell
+  diffsettings
+  dumpdata
+  findstatic
+  flush
+  inspectdb
+  loaddata
+  makemessages
+  reset
+  runfcgi
+  runserver
+  shell
+  sql
+  sqlall
+  sqlclear
+  sqlcustom
+  sqlflush
+  sqlindexes
+  sqlinitialdata
+  sqlreset
+  sqlsequencereset
+  startapp
+  syncdb
+  test
+  testserver
+  validate
+helaveesa@valinor:~/djcode/mysite$ cat settings.py
+# Django settings for mysite project.
+
+DEBUG = True
+TEMPLATE_DEBUG = DEBUG
+
+ADMINS = (
+    # ('Your Name', 'your_email@example.com'),
+)
+
+MANAGERS = ADMINS
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.', # Add 'postgresql_psycopg2', 'postgresql', 'mysql', 'sqlite3' or 'oracle'.
+        'NAME': '',                      # Or path to database file if using sqlite3.
+        'USER': '',                      # Not used with sqlite3.
+        'PASSWORD': '',                  # Not used with sqlite3.
+        'HOST': '',                      # Set to empty string for localhost. Not used with sqlite3.
+        'PORT': '',                      # Set to empty string for default. Not used with sqlite3.
+    }
+}
+
+# Local time zone for this installation. Choices can be found here:
+# http://en.wikipedia.org/wiki/List_of_tz_zones_by_name
+# although not all choices may be available on all operating systems.
+# On Unix systems, a value of None will cause Django to use the same
+# timezone as the operating system.
+# If running in a Windows environment this must be set to the same as your
+# system time zone.
+TIME_ZONE = 'America/Chicago'
+
+# Language code for this installation. All choices can be found here:
+# http://www.i18nguy.com/unicode/language-identifiers.html
+LANGUAGE_CODE = 'en-us'
+
+SITE_ID = 1
+
+# If you set this to False, Django will make some optimizations so as not
+# to load the internationalization machinery.
+USE_I18N = True
+
+# If you set this to False, Django will not format dates, numbers and
+# calendars according to the current locale
+USE_L10N = True
+
+# Absolute filesystem path to the directory that will hold user-uploaded files.
+# Example: "/home/media/media.lawrence.com/media/"
+MEDIA_ROOT = ''
+
+# URL that handles the media served from MEDIA_ROOT. Make sure to use a
+# trailing slash.
+# Examples: "http://media.lawrence.com/media/", "http://example.com/media/"
+MEDIA_URL = ''
+
+# Absolute path to the directory static files should be collected to.
+# Don't put anything in this directory yourself; store your static files
+# in apps' "static/" subdirectories and in STATICFILES_DIRS.
+# Example: "/home/media/media.lawrence.com/static/"
+STATIC_ROOT = ''
+
+# URL prefix for static files.
+# Example: "http://media.lawrence.com/static/"
+STATIC_URL = '/static/'
+
+# URL prefix for admin static files -- CSS, JavaScript and images.
+# Make sure to use a trailing slash.
+# Examples: "http://foo.com/static/admin/", "/static/admin/".
+ADMIN_MEDIA_PREFIX = '/static/admin/'
+
+# Additional locations of static files
+STATICFILES_DIRS = (
+    # Put strings here, like "/home/html/static" or "C:/www/django/static".
+    # Always use forward slashes, even on Windows.
+    # Don't forget to use absolute paths, not relative paths.
+)
+
+# List of finder classes that know how to find static files in
+# various locations.
+STATICFILES_FINDERS = (
+    'django.contrib.staticfiles.finders.FileSystemFinder',
+    'django.contrib.staticfiles.finders.AppDirectoriesFinder',
+#    'django.contrib.staticfiles.finders.DefaultStorageFinder',
+)
+
+# Make this unique, and don't share it with anybody.
+SECRET_KEY = '%woi$v4@!@9%n*l#5glidt2*p@ka@+9a-t8=xttziou&d))=2*'
+
+# List of callables that know how to import templates from various sources.
+TEMPLATE_LOADERS = (
+    'django.template.loaders.filesystem.Loader',
+    'django.template.loaders.app_directories.Loader',
+#     'django.template.loaders.eggs.Loader',
+)
+
+MIDDLEWARE_CLASSES = (
+    'django.middleware.common.CommonMiddleware',
+    'django.contrib.sessions.middleware.SessionMiddleware',
+    'django.middleware.csrf.CsrfViewMiddleware',
+    'django.contrib.auth.middleware.AuthenticationMiddleware',
+    'django.contrib.messages.middleware.MessageMiddleware',
+)
+
+ROOT_URLCONF = 'mysite.urls'
+
+TEMPLATE_DIRS = (
+    # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
+    # Always use forward slashes, even on Windows.
+    # Don't forget to use absolute paths, not relative paths.
+)
+
+INSTALLED_APPS = (
+    'django.contrib.auth',
+    'django.contrib.contenttypes',
+    'django.contrib.sessions',
+    'django.contrib.sites',
+    'django.contrib.messages',
+    'django.contrib.staticfiles',
+    # Uncomment the next line to enable the admin:
+    # 'django.contrib.admin',
+    # Uncomment the next line to enable admin documentation:
+    # 'django.contrib.admindocs',
+)
+
+# A sample logging configuration. The only tangible logging
+# performed by this configuration is to send an email to
+# the site admins on every HTTP 500 error.
+# See http://docs.djangoproject.com/en/dev/topics/logging for
+# more details on how to customize your logging configuration.
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': False,
+    'handlers': {
+        'mail_admins': {
+            'level': 'ERROR',
+            'class': 'django.utils.log.AdminEmailHandler'
+        }
+    },
+    'loggers': {
+        'django.request': {
+            'handlers': ['mail_admins'],
+            'level': 'ERROR',
+            'propagate': True,
+        },
+    }
+}
+helaveesa@valinor:~/djcode/mysite$ cat urls.py 
+from django.conf.urls.defaults import patterns, include, url
+
+# Uncomment the next two lines to enable the admin:
+# from django.contrib import admin
+# admin.autodiscover()
+
+urlpatterns = patterns('',
+    # Examples:
+    # url(r'^$', 'mysite.views.home', name='home'),
+    # url(r'^mysite/', include('mysite.foo.urls')),
+
+    # Uncomment the admin/doc line below to enable admin documentation:
+    # url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
+
+    # Uncomment the next line to enable the admin:
+    # url(r'^admin/', include(admin.site.urls)),
+)
+helaveesa@valinor:~/djcode/mysite$ python manage.py runserver
+Validating models...
+
+0 errors found
+Django version 1.3, using settings 'mysite.settings'
+Development server is running at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+[29/Apr/2012 17:13:52] "GET / HTTP/1.1" 200 2051
+Validating models...
+
+0 errors found
+Django version 1.3, using settings 'mysite.settings'
+Development server is running at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+[29/Apr/2012 17:32:50] "GET / HTTP/1.1" 404 1982
+[29/Apr/2012 17:32:56] "GET /hello/ HTTP/1.1" 200 28
+[29/Apr/2012 17:33:01] "GET / HTTP/1.1" 404 1982
+Validating models...
+
+0 errors found
+Django version 1.3, using settings 'mysite.settings'
+Development server is running at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+[29/Apr/2012 17:44:35] "GET / HTTP/1.1" 500 77563
+[29/Apr/2012 17:45:16] "GET / HTTP/1.1" 200 8
+Validating models...
+
+0 errors found
+Django version 1.3, using settings 'mysite.settings'
+Development server is running at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+[29/Apr/2012 17:51:51] "GET /time HTTP/1.1" 301 0
+[29/Apr/2012 17:51:51] "GET /time/ HTTP/1.1" 200 63
+Unhandled exception in thread started by <bound method Command.inner_run of <django.contrib.staticfiles.management.commands.runserver.Command object at 0x27e8550>>
+Error in sys.excepthook:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/apport_python_hook.py", line 50, in apport_excepthook
+    if not enabled():
+TypeError: 'NoneType' object is not callable
+
+Original exception was:
+Traceback (most recent call last):
+  File "/usr/lib/pymodules/python2.7/django/core/management/commands/runserver.py", line 107, in inner_run
+    run(self.addr, int(self.port), handler, ipv6=self.use_ipv6)
+  File "/usr/lib/pymodules/python2.7/django/core/servers/basehttp.py", line 696, in run
+    httpd.serve_forever()
+  File "/usr/lib/python2.7/SocketServer.py", line 225, in serve_forever
+    r, w, e = select.select([self], [], [], poll_interval)
+AttributeError: 'NoneType' object has no attribute 'select'
+Validating models...
+
+0 errors found
+Django version 1.3, using settings 'mysite.settings'
+Development server is running at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+[29/Apr/2012 17:57:45] "GET /time/plus/1 HTTP/1.1" 500 93328
+[29/Apr/2012 17:58:04] "GET /time/plus/1 HTTP/1.1" 500 110435
+[29/Apr/2012 17:58:12] "GET /time/plus/1 HTTP/1.1" 500 110435
+[29/Apr/2012 18:00:31] "GET /time/plus/1 HTTP/1.1" 301 0
+[29/Apr/2012 18:00:32] "GET /time/plus/1/ HTTP/1.1" 200 78
+[29/Apr/2012 18:02:34] "GET /time/plus/1uy/ HTTP/1.1" 404 2355
+Validating models...
+
+0 errors found
+Django version 1.3, using settings 'mysite.settings'
+Development server is running at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+[29/Apr/2012 18:04:07] "GET /time/plus/1uy/ HTTP/1.1" 404 2355
+[29/Apr/2012 18:04:34] "GET /time/plus/wefwqef HTTP/1.1" 404 2364
+[29/Apr/2012 18:04:46] "GET /time/plus/12 HTTP/1.1" 301 0
+[29/Apr/2012 18:04:46] "GET /time/plus/12/ HTTP/1.1" 500 61983
+Validating models...
+
+0 errors found
+Django version 1.3, using settings 'mysite.settings'
+Development server is running at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+[29/Apr/2012 18:07:48] "GET /time/plus/12/ HTTP/1.1" 500 62079
+Validating models...
+
+0 errors found
+Django version 1.3, using settings 'mysite.settings'
+Development server is running at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+Validating models...
+
+0 errors found
+Django version 1.3, using settings 'mysite.settings'
+Development server is running at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+Validating models...
+
+0 errors found
+Django version 1.3, using settings 'mysite.settings'
+Development server is running at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+Validating models...
+
+0 errors found
+Django version 1.3, using settings 'mysite.settings'
+Development server is running at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+[30/Apr/2012 03:08:16] "GET /time/plus/12/ HTTP/1.1" 200 79
+Validating models...
+
+0 errors found
+Django version 1.3, using settings 'mysite.settings'
+Development server is running at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+[30/Apr/2012 04:04:42] "GET /time/ HTTP/1.1" 500 69659
+[30/Apr/2012 04:05:29] "GET /time/ HTTP/1.1" 200 63
+Validating models...
+
+0 errors found
+Django version 1.3, using settings 'mysite.settings'
+Development server is running at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+[30/Apr/2012 04:06:56] "GET /time/ HTTP/1.1" 500 62583
+Validating models...
+
+0 errors found
+Django version 1.3, using settings 'mysite.settings'
+Development server is running at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+[30/Apr/2012 04:07:27] "GET /time/ HTTP/1.1" 200 63
+
